@@ -1,15 +1,18 @@
+/* GLOBAL STYLES */
 a {
 	color: red;
 }
 
+/* BIO STYLES */
 .bio-box {
 	border: 1px solid black;
 }
 
-.bio-box a {
+.bio-copy a {
 	color: green;
 }
 
-#exec-bio {
-	background-color: lightgrey;
+/* SOCIAL STYLES */
+.social-link {
+	color: blue;
 }
