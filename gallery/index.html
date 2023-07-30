@@ -2,4 +2,22 @@
 layout: default
 ---
 
-I am on a 3 column page
+<div class="gallery col-three">
+	<div class="col col-nav gallery-thumbs" id="gallery-thumbs">
+		<div class="current">
+			<img src="{{ site.baseurl }}/images/small/slide1.jpg" alt="Image Title 1" />
+		</div>
+		<div>
+			<img src="{{ site.baseurl }}/images/small/slide1.jpg" alt="Image Title 2" />
+		</div>
+	</div>
+	<div class="col col-content">
+		<div class="gallery-photo" id="gallery-photo">
+			<img src="{{ site.baseurl }}/images/large/slide1.jpg" alt="Image Title 1" />
+		</div>
+	</div>
+	<div class="col col-aside gallery-info" id="gallery-info">
+		<h3>Image Title 1</h3>
+		<p>Image Description</p>
+	</div>
+</div>
